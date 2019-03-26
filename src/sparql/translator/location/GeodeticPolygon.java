@@ -1,0 +1,129 @@
+package sparql.translator.location;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import sparql.translator.utilities.Global;
+
+/**
+ * The <code>GeodeticPolygon</code> class is a 2-dimensional or 3-dimensional shape that is represented by the 
+ * latitude, longitude, and (optionally) altitude of its boundary's points.
+ *
+ * @author Ken Samuel
+ * @version 1.0, Nov 4, 2013
+ * @since 1.6
+ */
+public class GeodeticPolygon extends SceneCentricOutdoorLocation implements Iterable<GeodeticPoint> {
+
+	/** <code>serialVersionUID</code> is needed, because this class implements Serializable. */
+	private static final long serialVersionUID = 7526472295622776147L;
+
+	/** 
+	 * <code>points</code> is a list of the points of this shape's boundary at the bottom of the shape, listed
+	 * in order going around the polygon. 
+	 */
+	ArrayList<GeodeticPoint> points;
+
+	
+	/**
+	 * The <code>GeodeticShape</code> constructor initializes this class's fields.
+	 *
+	 * @param idIn is the identifier to be assigned to this location.
+	 */
+	public GeodeticPolygon(String idIn) {
+		super(idIn);
+		points = new ArrayList<GeodeticPoint>();
+	}
+
+	/**
+	 * The <code>setArguments</code> method parses a list of arguments and stores them in the fields of this
+	 * object.
+	 *
+	 * @param arguments is a list of arguments in XML.
+	 * @param owner is a description of the last XML tag that was found in the XML version of the query.
+	 */
+	public void setArguments(NodeList arguments, String owner) {
+		Node argument;					//One of the arguments
+		String argumentName;			//The name of that argument
+		GeodeticPoint vertex;	//One of the vertices of this polygon
+		String vertexId;				//That vertex's identifier
+		String warning;							//A message to let the user know there might be a problem
+		Integer count;					//For counting iterations of a loop
+
+		for (count = 0; count < arguments.getLength(); count++) {
+			argument = arguments.item(count);
+			if (argument.getNodeType() == Node.ELEMENT_NODE) {		//Skip the text nodes
+				argumentName = argument.getNodeName(); 
+				if (argumentName.equals("GeodeticPoint")) {
+					vertexId = ((Element)argument).getAttribute("id");
+					if ( ! vertexId.equals("")) {
+						System.err.println(
+								"WARNING in GeodeticPolygon.setArguments in vertex \"" + vertexId + 				
+								"\" in " + owner + ": This system cannot handle named vertices like \"" + 
+								vertexId + "\" if they are referenced elsewhere.");
+					}
+					vertex = new GeodeticPoint(vertexId);
+					vertex.setArguments(argument.getChildNodes(),"a <GeodeticPoint> in "+owner);
+					addPoint(vertex);
+				} else {
+					if (id.equals("")) {
+						warning = "a <GeodeticPolygon> in ";
+					} else {
+						warning = "the location, \"" + id + "\", in ";
+					}
+					warning = 
+							"WARNING in GeodeticPolygon.setArguments in " + owner + 
+							": Found an unexpected tag, <" + argumentName + 
+							">, in " + warning + "<Locations>.";
+					System.err.println(warning);
+			    	Global.unableToRespondMessage.add(warning);
+				}
+			}
+		}
+	}
+	
+	/**
+	 * The <code>addPoint</code> method adds a new point to the end of the list of this shape's points.
+	 *
+	 * @param point is a location that is represented by its latitude, longitude, and (optionally) altitude.
+	 */
+	public void addPoint(GeodeticPoint point) {
+		points.add(point);
+	}
+	
+	/**
+	 * The <code>iterator</code> method returns an iterator that can loop through the points on this shape's
+	 * bottom.
+	 *
+	 * @return the iterator for the <code>points</code> list.
+     * @see java.lang.Iterable#iterator()
+	 */
+    @Override
+	public Iterator<GeodeticPoint> iterator() {        
+        return points.iterator();
+    }
+
+	/**
+	 * The <code>toString</code> method returns the SPARQL version of this location.
+	 *
+	 * @return the coordinates of this polygon.
+	 * @see java.lang.Object#toString()
+	 */
+	@Override
+	public String toString() {
+		String semicolon;			//Specifies whether a semicolon should be added
+		StringBuffer returnValue;
+		
+		returnValue = new StringBuffer();		//Initialize
+		semicolon = "";							//Initialize
+		for (GeodeticPoint point : points) {
+			returnValue.append(semicolon + point.toString());
+			semicolon = ";";
+		}
+		return returnValue.toString();
+	}
+}

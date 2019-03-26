@@ -1,0 +1,184 @@
+ROOT-0 ROOT
+msee:aux msee:aux.id=ARGID is are did/VBD being/VBG was/VBD 
+msee:det msee:det.type=ARG msee:det.id=ARGID the a an another/DT some/DT
+msee:direction msee:direction.value=ARG msee:direction.id=ARGID left/JJ right/JJ
+msee:event msee:event.type=answer msee:event.id=ARGID answer answers answering
+msee:event msee:event.type=appear msee:event.id=ARGID appear/VBP appears/VBZ
+msee:event msee:event.type=approach msee:event.id=ARGID approach approaches approaching
+msee:event msee:event.type=ask msee:event.id=ARGID ask asks asked asking
+msee:event msee:event.type=bend msee:event.id=ARGID bend bends bent bents
+msee:event msee:event.type=buy msee:event.id=ARGID buy buys buying purchase purchases purchasing bought
+msee:event msee:event.type=call msee:event.id=ARGID calls/VBZ calling
+msee:event msee:event.type=carry msee:event.id=ARGID carry carries carrying
+msee:event msee:event.type=close msee:event.id=ARGID closes closing shut
+msee:event msee:event.type=come msee:event.id=ARGID come comes coming
+msee:event msee:event.type=continue msee:event.id=ARGID continues/VBZ continue/VBP continued/VBD
+msee:event msee:event.type=disappear msee:event.id=ARGID disappear/VBP disappears/VBZ disappeared/VBD
+msee:event msee:event.type=discuss msee:event.id=ARGID discuss discusses discussing
+msee:event msee:event.type=drink msee:event.id=ARGID drink/VBP drink/VB drinks/VBZ drinking consume consumes ingest ingests imbibe drank
+msee:event msee:event.type=drive msee:event.id=ARGID drive drives driving drove
+msee:event msee:event.type=drop msee:event.id=ARGID drop drops dropped dropping throw threw throwing
+msee:event msee:event.type=eat msee:event.id=ARGID eat eats eating 
+msee:event msee:event.type=end msee:event.id=ARGID ends
+msee:event msee:event.type=enter msee:event.id=ARGID enter enters entering
+msee:event msee:event.type=exit msee:event.id=ARGID exits
+msee:event msee:event.type=find msee:event.id=ARGID finds/VBZ find/VBZ finding/VBZ
+msee:event msee:event.type=get msee:event.id=ARGID get gets getting
+msee:event msee:event.type=go msee:event.id=ARGID go goes going
+msee:event msee:event.type=have msee:event.id=ARGID has have having
+msee:event msee:event.type=hold msee:event.id=ARGID hold holds holding
+msee:event msee:event.type=interrupt msee:event.id=ARGID interrupt
+msee:event msee:event.type=keep msee:event.id=ARGID keep keeps kept keeping
+msee:event msee:event.type=leave msee:event.id=ARGID leave left leaving leaves
+msee:event msee:event.type=loiter msee:event.id=ARGID loiter loiters loitering
+msee:event msee:event.type=look msee:event.id=ARGID look looks looking watch watching
+msee:event msee:event.type=make msee:event.id=ARGID make makes making
+msee:event msee:event.type=open msee:event.id=ARGID open opens opening opened/VBD opened/VBN
+msee:event msee:event.type=organize msee:event.id=ARGID organize organizes
+msee:event msee:event.type=pay msee:event.id=ARGID pay/VBP pays/VBZ
+msee:event msee:event.type=pass msee:event.id=ARGID pass/VBP passes/VBZ
+msee:event msee:event.type=pick msee:event.id=ARGID pick picks picking
+msee:event msee:event.type=play msee:event.id=ARGID play plays playing 
+msee:event msee:event.type=press msee:event.id=ARGID press presses pressed pressing
+msee:event msee:event.type=pull msee:event.id=ARGID pull pulls pulling pulled
+msee:event msee:event.type=push msee:event.id=ARGID push pushes pushing
+msee:event msee:event.type=put msee:event.id=ARGID put puts putting
+msee:event msee:event.type=raise msee:event.id=ARGID raise raises raising
+msee:event msee:event.type=reach msee:event.id=ARGID reach reaches reaching
+msee:event msee:event.type=read msee:event.id=ARGID read reading reads
+msee:event msee:event.type=receive msee:event.id=ARGID receives/VBZ receive/VBP got/VBD get/VBZ
+msee:event msee:event.type=return msee:event.id=ARGID returns/VBZ return/VBP
+msee:event msee:event.type=ride msee:event.id=ARGID ride rides riding
+msee:event msee:event.type=run msee:event.id=ARGID run runs running
+msee:event msee:event.type=sit msee:event.id=ARGID sit sits sitting
+msee:event msee:event.type=sign msee:event.id=ARGID signing/VBG
+msee:event msee:event.type=slings msee:event.id=ARGID slings/VBZ sling/VBZ 
+msee:event msee:event.type=squat msee:event.id=ARGID squats/VBZ squat/VBZ 
+msee:event msee:event.type=stand msee:event.id=ARGID stand stands standing
+msee:event msee:event.type=start msee:event.id=ARGID start/VBP starts/VBZ
+msee:event msee:event.type=stop msee:event.id=ARGID stop stops stopping
+msee:event msee:event.type=stay msee:event.id=ARGID stay stays staying
+msee:event msee:event.type=talk msee:event.id=ARGID talk talks talking speak speaks speaking chats/VBZ chat/VBZ talked/VBD
+msee:event msee:event.type=take msee:event.id=ARGID take takes taking grabs/VBZ grab/VBP grabbed/VBD
+msee:event msee:event.type=throw msee:event.id=ARGID throw throws throwing
+msee:event msee:event.type=touch msee:event.id=ARGID touch touches touching contact touched
+msee:event msee:event.type=turn msee:event.id=ARGID turn turns turning
+msee:event msee:event.type=type msee:event.id=ARGID types typing type
+msee:event msee:event.type=use msee:event.id=ARGID use uses using
+msee:event msee:event.type=wait msee:event.id=ARGID wait waits waiting
+msee:event msee:event.type=walk msee:event.id=ARGID walk walks walking walked/VBD
+msee:event msee:event.type=want msee:event.id=ARGID want wants wanted
+msee:event msee:event.type=wear msee:event.id=ARGID wear wearing wears worn
+msee:event msee:event.type=write msee:event.id=ARGID write writes writing
+msee:eventdo msee:eventdo.id=ARGID doing/VBG do/VB
+msee:fluent msee:fluent.type=doorstatus msee:fluent.id=ARGID msee:fluent.value=1 open/JJ
+msee:fluent msee:fluent.type=doorstatus msee:fluent.id=ARGID msee:fluent.value=0 close closed
+msee:fluent msee:fluent.type=fullempty msee:fluent.id=ARGID msee:fluent.value=full full filled
+msee:fluent msee:fluent.type=fullempty msee:fluent.id=ARGID msee:fluent.value=empty empty
+msee:fluent msee:fluent.type=happy msee:fluent.id=ARGID msee:fluent.value=1 happy
+msee:fluent msee:fluent.type=healthstatus msee:fluent.id=ARGID msee:fluent.value=ill ill/JJ
+msee:fluent msee:fluent.type=hungry msee:fluent.id=ARGID msee:fluent.value=1 hungry/JJ
+msee:fluent msee:fluent.type=hurry msee:fluent.id=ARGID msee:fluent.value=1 hurry rush/NN
+msee:fluent msee:fluent.type=hurt msee:fluent.id=ARGID msee:fluent.value=1 hurt/VBN
+msee:fluent msee:fluent.type=lightstatus msee:fluent.id=ARGID msee:fluent.value=on on
+msee:fluent msee:fluent.type=lightstatus msee:fluent.id=ARGID msee:fluent.value=off off
+msee:fluent msee:fluent.type=missingstatus msee:fluent.id=ARGID msee:fluent.value=missing missed/VBN
+msee:fluent msee:fluent.type=thirsty msee:fluent.id=ARGID msee:fluent.value=1 thirsty
+msee:humanname msee:humanname.type=Human msee:humanname.id=ARGID msee:humanname.name=ARG Dan Ping PingWei Yibiao Mingtian Songchun Kewei John Tom Amy Ajay Human_9 Human_99 Human_999 Human_9999
+msee:human msee:human.type=Human msee:human.id=ARGID human person man men boy boys girl girls he she woman lady gentleman persons they child people male female him/PRP her/PRP someone/NN friends/NNS friend/NN others/NNS
+msee:location msee:location.name=ARG msee:location.id=ARGID vision_lab young_hall science_court lawn/NN road/NN court/NN square/NN hall/NN
+msee:location msee:location.id=ARGID room lab office courtyard room upstairs downstairs somewhere
+msee:manner msee:manner.type=manner msee:manner.id=ARGID msee:manner.value=ARG slowly quickly suddenly/RB together/RB different/JJ same/JJ formal/JJ wrong/JJ very/RB
+msee:expletive msee:expletive.id=ARGID there this
+msee:number msee:number.id=ARGID msee:number.value=ARG one two three four five six seven eight nine ten 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100
+msee:object msee:object.type=Backpack msee:object.id=ARGID backpack backPack back_pack
+msee:object msee:object.type=Bag msee:object.id=ARGID bag
+msee:object msee:object.type=Ball msee:object.id=ARGID ball
+msee:object msee:object.type=Bat msee:object.id=ARGID bat
+msee:object msee:object.type=Beverage msee:object.id=ARGID soda water coke tea coffee drink/NN
+msee:object msee:object.type=Bike msee:object.id=ARGID scooter bike bicycle motorcycle
+msee:object msee:object.type=Book msee:object.id=ARGID book/NN books/NNS
+msee:object msee:object.type=Bottle msee:object.id=ARGID bottle/NN bottles/NNS
+msee:object msee:object.type=Building msee:object.id=ARGID building/NN
+msee:object msee:object.type=Buses msee:object.id=ARGID bus buses autobus motorbus
+msee:object msee:object.type=Camera msee:object.id=ARGID cap camera cameras
+msee:object msee:object.type=Cap msee:object.id=ARGID cap baseball_cap
+msee:object msee:object.type=Chair msee:object.id=ARGID chair seat sofa stool
+msee:object msee:object.type=Class msee:object.id=ARGID class/NN
+msee:object msee:object.type=Crossbag msee:object.id=ARGID crossbag crossbag
+msee:object msee:object.type=Crowd msee:object.id=ARGID crowds/NNS crowd/NN
+msee:object msee:object.type=Computer msee:object.id=ARGID computer machine pc laptop
+msee:object msee:object.type=Cup msee:object.id=ARGID cup mug jar glass
+msee:object msee:object.type=Direction msee:object.id=ARGID direction directions
+msee:object msee:object.type=Document msee:object.id=ARGID article website journal report book
+msee:object msee:object.type=Door msee:object.id=ARGID door gate entrance doorway
+msee:object msee:object.type=Elevator msee:object.id=ARGID elevator
+msee:object msee:object.type=Elevator_button msee:object.id=ARGID elevator_button button
+msee:object msee:object.type=Elevator door msee:object.id=ARGID elevator_door
+msee:object msee:object.type=Feet msee:object.id=ARGID feet/NNS
+msee:object msee:object.type=File msee:object.id=ARGID files/NNS file/NN
+msee:object msee:object.type=Folder msee:object.id=ARGID folders/NNS folder/NN
+msee:object msee:object.type=Food msee:object.id=ARGID food
+msee:object msee:object.type=Food_truck msee:object.id=ARGID food_truck food_trucks foodbus food_bus foodtruck
+msee:object msee:object.type=Food_menu msee:object.id=ARGID food_menu foodmenu menu
+msee:object msee:object.type=Eyeglasses msee:object.id=ARGID glasses eyeglasses specs spectacles
+msee:object msee:object.type=Group msee:object.id=ARGID group
+msee:object msee:object.type=Hair msee:object.id=ARGID hair hairs
+msee:object msee:object.type=Hand msee:object.id=ARGID hand
+msee:object msee:object.type=Handbag msee:object.id=ARGID handbag handbag purse
+msee:object msee:object.type=Hat msee:object.id=ARGID hat sunhat
+msee:object msee:object.type=Hatchback msee:object.id=ARGID hatchback
+msee:object msee:object.type=Helmet msee:object.id=ARGID helmet
+msee:object msee:object.type=Jean msee:object.id=ARGID jean jeans
+msee:object msee:object.type=Keyboard msee:object.id=ARGID keyboard
+msee:object msee:object.type=Light msee:object.id=ARGID light lights
+msee:object msee:object.type=Meeting msee:object.id=ARGID meeting/NN
+msee:object msee:object.type=Money msee:object.id=ARGID money/NN
+msee:object msee:object.type=Monitor msee:object.id=ARGID monitor screen
+msee:object msee:object.type=Mouse msee:object.id=ARGID mouse
+msee:object msee:object.type=News msee:object.id=ARGID news/NN
+msee:object msee:object.type=Object msee:object.id=ARGID object something sth it/PRP
+msee:object msee:object.type=Foodorder msee:object.id=ARGID order/NN
+msee:object msee:object.type=Pant msee:object.id=ARGID pant pants trouser
+msee:object msee:object.type=Paper msee:object.id=ARGID paper
+msee:object msee:object.type=Phone msee:object.id=ARGID phone/NN cellphone/NN
+msee:object msee:object.type=Phonecall msee:object.id=ARGID phone_call call/NN
+msee:object msee:object.type=Pickup msee:object.id=ARGID pickup pickup_truck
+msee:object msee:object.type=Plan msee:object.id=ARGID plan/NN
+msee:object msee:object.type=Queue msee:object.id=ARGID line/NN queue/NN
+msee:object msee:object.type=Question msee:object.id=ARGID questions/NNS question/NN
+msee:object msee:object.type=Sedan msee:object.id=ARGID sedan car motorcar automobile
+msee:object msee:object.type=Shoelace msee:object.id=ARGID shoelaces/NNS 
+msee:object msee:object.type=Sleeve_top msee:object.id=ARGID sleeve sleeve_top sleeve_shirts 
+msee:object msee:object.type=Skateboard msee:object.id=ARGID skateboard skateboards
+msee:object msee:object.type=Skirt msee:object.id=ARGID skirt skirts
+msee:object msee:object.type=Stairs msee:object.id=ARGID stairs steps
+msee:object msee:object.type=Stroller msee:object.id=ARGID stroller
+msee:object msee:object.type=Switch msee:object.id=ARGID switch light_switch electric_switch
+msee:object msee:object.type=Table msee:object.id=ARGID table desk
+msee:object msee:object.type=Trash msee:object.id=ARGID trash
+msee:object msee:object.type=Trash_can msee:object.id=ARGID trash_bin trash_can trashcan
+msee:object msee:object.type=Truck msee:object.id=ARGID truck trucks
+msee:object msee:object.type=Umbrella msee:object.id=ARGID umbrella
+msee:object msee:object.type=Van msee:object.id=ARGID van vans delivery_van wagon
+msee:object msee:object.type=Vending_machine msee:object.id=ARGID vending_machine
+msee:object msee:object.type=Wall msee:object.id=ARGID wall
+msee:object msee:object.type=Wallet msee:object.id=ARGID wallet/NN wallets/NNS
+msee:object msee:object.type=Fountain msee:object.id=ARGID water_fountain fountain
+msee:poss msee:poss.id=ARGID his/PRP$ her/PRP$ their/PRP$
+msee:prep msee:prep.type=ARG msee:prep.id=ARGID in/RP out/RP out/RB up/RP down/RP back/RB back/RP to/TO over/RP away/RP towards/IN by/IN for/IN while/IN
+msee:size msee:size.value=ARG msee:size.id=ARGID large small long short
+msee:neg msee:neg.value=ARG msee:neg.id=ARGID not/RB
+msee:quantity msee:quantity.value=ARG msee:quantity.id=ARGID more/JJR less/JJR many/JJR
+msee:favorability msee:favorability.value=ARG msee:favorability.id=ARGID bad/JJ good/JJ
+msee:then msee:then.id=ARGID then/RB
+msee:occupation msee:occupation.value=ARG msee:occupation.id=ARGID policeman professor soldier student teacher vender/NN
+msee:religion msee:religion.value=ARG msee:religion.id=ARGID christian buddhist hindus jews muslim sikh taoist catholic baptists
+msee:race msee:race.value=ARG msee:race.id=ARGID caucasian african_american asian hispanic native_american
+msee:color msee:color.value=ARG msee:color.id=ARGID black blue brown cyan darkgrey gold green grey indigo lightgrey magnenta maroon pink purple red silver yellow white
+msee:who msee:who.id=ARGID who
+msee:what msee:what.id=ARGID what
+msee:where msee:where.id=ARGID where
+msee:why msee:why.id=ARGID why
+msee:how msee:how.id=ARGID how
+msee:yearold msee:det.id=ARGID year_old/JJ

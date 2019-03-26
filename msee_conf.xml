@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!--Performer-->
+    <performer_id>ucla</performer_id>
+
+    <!--EES Server-->
+    <ees>
+        <!--Remove EES server for evaluation-->
+        <remote>
+            <host>localhost</host>
+            <port>8000</port>
+            <dataroot>/</dataroot>
+        </remote>
+        <!--Local EES server for development and testing-->
+        <local>
+            <host>128.97.55.80</host>
+            <port>8000</port>
+            <dataroot>http://128.97.55.80/MSEE/phase2_training/</dataroot>
+        </local>
+    </ees>
+
+    <settings>
+        <remote_log>false</remote_log>
+    </settings>
+
+    <directories>
+        <data>data/</data>
+        <log>log/</log>
+        <model>model/</model>
+    </directories>
+
+    <!--Local services-->
+    <services>
+        <!--Evaluation service, serves as interface between EES and SUT-->
+        <evaluation>
+            <host>localhost</host>
+            <port>30000</port>
+        </evaluation>
+        <logging>
+            <host>localhost</host>
+            <port>30001</port>
+        </logging>
+        <query>
+            <host>localhost</host>
+            <port>30002</port>
+        </query>
+        <object_detection>
+            <host>localhost</host>
+            <port>30003</port>
+        </object_detection>
+        <human_parsing>
+            <host>localhost</host>
+            <port>30004</port>
+        </human_parsing>
+        <vehicle_parsing>
+            <host>localhost</host>
+            <port>30005</port>
+        </vehicle_parsing>
+        <tracking>
+            <host>localhost</host>
+            <port>30006</port>
+        </tracking>
+        <action_detection>
+            <host>localhost</host>
+            <port>30007</port>
+        </action_detection>
+        <human_attributes>
+            <host>localhost</host>
+            <port>30008</port>
+        </human_attributes>
+        <data_provider>
+            <host>128.97.55.80</host>
+            <port>30009</port>
+        </data_provider>
+        <behavior_parsing>
+            <host>localhost</host>
+            <port>30010</port>
+        </behavior_parsing>
+        <scene_parsing>
+            <host>localhost</host>
+            <port>30011</port>
+        </scene_parsing>
+        <online>
+            <host>128.97.86.189</host>
+            <port>30020</port>
+        </online>
+    </services>
+</config>
