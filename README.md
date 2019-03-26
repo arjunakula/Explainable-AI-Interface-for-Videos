@@ -1,2 +1,2 @@
 # Explainable-AI-Interface-to-Videos
-Explainable AI Interface to Videos using Dialogue
+Natural Language Explanations to Videos through Dialogue
